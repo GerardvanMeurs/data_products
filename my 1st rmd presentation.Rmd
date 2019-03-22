@@ -1,0 +1,17 @@
+---
+title: "Rmd-Presentation"
+author: "Gerard van Meurs"
+date: "22 maart 2019"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Another slide with a plot
+
+```{r, fig.align = 'center', fig.cap = "My 1st Awesome plot!!"}
+plot(mtcars$wt, mtcars$mpg, xlab = "weight", ylab = "mpg")
+```
+
